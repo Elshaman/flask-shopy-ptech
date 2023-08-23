@@ -1,12 +1,13 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>formulario</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
+{%  extends 'bootstrap/base.html' %}
+{%  import 'bootstrap/wtf.html' %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+
+
+{% block body%}
     <h1>Nuevo Producto: </h1>
-    
-  </body>
-</html>
+    <form action="" 
+          method="POST">
+    </form>
+{% endblock %}
